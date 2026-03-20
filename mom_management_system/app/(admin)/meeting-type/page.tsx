@@ -4,7 +4,7 @@ import { prisma } from '@/lib/prisma'
 import Link from 'next/link'
 import DeleteMeetingType from '@/app/ui/DeleteMeetingType'
 import { FaPlus, FaLayerGroup } from 'react-icons/fa'
-import { meetingtype } from '@prisma/client'
+import { meetingtype } from '@prisma/client'    
 import SearchBar from '@/app/ui/SearchBar'
 
 async function MeetingTypeList({
