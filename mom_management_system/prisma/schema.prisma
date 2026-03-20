@@ -15,6 +15,7 @@ model settings {
 
 datasource db {
   provider = "mysql"
+  url      = env("DATABASE_URL")
 }
 
 model meetingmember {
